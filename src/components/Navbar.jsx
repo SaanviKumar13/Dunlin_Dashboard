@@ -47,7 +47,7 @@ function NavItem({ to, icon, label, setMobileMenuOpen }) {
         >
             <NavLink
                 to={to}
-                className='group flex items-center transition-all py-2 px-4 gap-3 rounded hover:bg-navbar-100 text-white-10 font-nunito text-xl font-semibold'
+                className='group flex items-center transition-all py-2 gap-3 rounded hover:bg-navbar-100 text-white-10 font-nunito text-xl font-semibold'
             >
                 {icon}
                 <span className='text-md font-nunito opacity-100 group-hover:opacity-100 transition-all font-normal text-white-10'>
