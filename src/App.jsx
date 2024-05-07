@@ -4,6 +4,7 @@ import PageNotFound from "./pages/PageNotFound";
 import UploadCsv from "./components/UploadCsv";
 import Signin from "./pages/SignIn";
 import Login from "./pages/Login";
+import Transactions from "./pages/transactions";
 
 export default function App() {
   return (
@@ -14,8 +15,8 @@ export default function App() {
         <Route element={<AppLayout />}>
           <Route path="/uploadcsv" element={<UploadCsv />} />
           <Route path="/upload" element={<UploadCsv />} />
-          <Route path="/transactions" element={<UploadCsv />} />
         </Route>
+        <Route path="/transactions" element={<Transactions />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
