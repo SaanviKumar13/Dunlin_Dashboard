@@ -14,6 +14,7 @@ export default function App() {
         <Route element={<AppLayout />}>
           <Route path="/uploadcsv" element={<UploadCsv />} />
           <Route path="/upload" element={<UploadCsv />} />
+          <Route path="/transactions" element={<UploadCsv />} />
         </Route>
         <Route path="*" element={<PageNotFound />} />
       </Routes>
